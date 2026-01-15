@@ -79,3 +79,15 @@ ul li a:hover {
 .menu:hover {
   border-color: red;
 }
+
+.link:hover {
+    color: red;
+}
+
+.link {
+    color: #EEE;
+    padding: 14px 16px;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    
+}
