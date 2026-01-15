@@ -1,0 +1,81 @@
+/**/
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+html {
+    background-color: #292929;
+    background: linear-gradient(to bottom, black, #292929);
+    background-repeat: no-repeat;
+    font-family: 'Roboto Mono';
+    height: 100vw;
+    width: 100%;
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    color: #eee;
+    animation: fadeIn 1.5s ease;
+}
+
+h2 {
+  color:#EEE;
+  font-size: 25px;
+}
+
+p {
+    color: #eee;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  animation: fadeIn 1.5s ease;
+}
+
+ul li a {
+  display: block;
+  color: #EEE;
+  padding: 14px 16px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+ul li a:hover {
+  color: red;
+}
+
+
+
+/* Specific objects below */
+
+#back-button {
+  color: #EEE;
+  text-decoration: none;
+  text-decoration: underline;
+  padding: 5px;
+  padding-top: 3px;
+  animation: fadeIn 1.5s ease;
+  text-underline-offset: 3px;
+}
+
+#back-button:hover {
+  color: red;
+}
+
+.menu:hover {
+  border-color: red;
+}
